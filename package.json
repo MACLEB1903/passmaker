@@ -1,6 +1,6 @@
 {
   "name": "@passmaker/passmaker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cryptographically secure password generator built on the Crypto API",
   "main": "index.js",
   "type": "module",
