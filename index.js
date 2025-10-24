@@ -34,8 +34,6 @@ export default function passmaker(...args) {
       ? numberArgs[0]
       : passwordLength;
 
-  console.log(passwordLength);
-
   validateArguments(args, numberArgs, symbolsArgs, passwordLength);
 
   let charPool = [
