@@ -5,7 +5,7 @@ Cryptographically secure password generator built on the Crypto API.
 ## Installation
 
 ```bash
-  npm i passmaker
+  npm i @passmaker/passmaker
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ Cryptographically secure password generator built on the Crypto API.
 Generate a random secure password with the default settings (includes all character groups).
 
 ```javascript
-import passmaker from "passmaker";
+import passmaker from "@passmaker/passmaker";
 
 console.log(passmaker());
 
@@ -28,7 +28,7 @@ console.log(passmaker());
 Generate a password with a custom length and optional exclusion rules to control which character groups are used.
 
 ```javascript
-import passmaker, { excludeNumbers } from "passmaker";
+import passmaker, { excludeNumbers } from "@passmaker/passmaker";
 
 console.log(passmaker(12, excludeNumbers));
 
@@ -41,7 +41,7 @@ import passmaker, {
   excludeNumbers,
   excludeSpecials,
   excludeVowels,
-} from "passmaker";
+} from "@passmaker/passmaker";
 
 console.log(passmaker(16, excludeVowels, excludeNumbers, excludeSpecials));
 

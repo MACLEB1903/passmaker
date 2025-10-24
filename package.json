@@ -1,5 +1,5 @@
 {
-  "name": "passmaker",
+  "name": "@passmaker/passmaker",
   "version": "1.0.0",
   "description": "Cryptographically secure password generator built on the Crypto API",
   "main": "index.js",
@@ -11,10 +11,20 @@
     "type": "git",
     "url": "git+https://github.com/MACLEB1903/passmaker.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "MARCEL EBALLAR",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MACLEB1903/passmaker/issues"
   },
-  "homepage": "https://github.com/MACLEB1903/passmaker#readme"
+  "homepage": "https://github.com/MACLEB1903/passmaker#readme",
+  "keywords": [
+    "passmaker",
+    "password",
+    "generator",
+    "crypto",
+    "security"
+  ]
 }
