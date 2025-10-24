@@ -49,7 +49,7 @@ console.log(passmaker(16, excludeVowels, excludeNumbers, excludeSpecials));
 // nXBTnMqcLkXvzPNC
 ```
 
-## Table
+## Optionl options
 
 | Name              |   Type   | Description                                              | Default Value |
 | ----------------- | :------: | -------------------------------------------------------- | :-----------: |
