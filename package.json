@@ -1,0 +1,46 @@
+{
+  "name": "@passmaker/passmaker",
+  "version": "2.0.0",
+  "description": "Cryptographically secure password generator built on the Crypto API.",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.cjs"
+  },
+  "scripts": {
+    "build": "tsup",
+    "watch": "tsup --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "rollup": "^4.52.5",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "MARCEL EBALLAR",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MACLEB1903/passmaker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MACLEB1903/passmaker/issues"
+  },
+  "homepage": "https://github.com/MACLEB1903/passmaker#readme",
+  "keywords": [
+    "passmaker",
+    "password",
+    "generator",
+    "crypto",
+    "security"
+  ]
+}
