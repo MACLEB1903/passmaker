@@ -1,6 +1,6 @@
 {
   "name": "@passmaker/passmaker",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Cryptographically secure password generator built on the Crypto API.",
   "files": [
     "dist"
