@@ -16,7 +16,6 @@ Cryptographically secure password generator built on the Crypto API.
 
 ```bash
   const passmaker = require("@passmaker/passmaker");
-
 ```
 
 ## Usage
@@ -47,7 +46,7 @@ passmaker(15);
 // "2u;}>i]Uyt:T3=
 ```
 
-### passmaker(length, {arguments})
+### passmaker(length, {options})
 
 Generate a secure password with custom length, character rules, and output options.
 
@@ -70,7 +69,7 @@ passmaker(15, {
 
 ### passmaker(length, {length: n})
 
-This scenario would use the object’s length value, as it has higher precedence.
+Generates a password using the **{length: n}** specified in the object, which overrides the positional **length** argument.
 
 ```javascript
 import passmaker from "@passmaker/passmaker";
@@ -83,7 +82,7 @@ passmaker(15, {
 // 'j@|?Cvo'@J&`#A!ur^X
 ```
 
-## Optionl options
+## Optional options
 
 Customize password generation by setting length, character groups, output format, and duplication rules.
 
